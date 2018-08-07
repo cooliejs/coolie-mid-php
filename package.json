@@ -1,0 +1,38 @@
+{
+  "name": "coolie-mid-php",
+  "version": "1.0.0",
+  "description": "coolie-mid-php description",
+  "scripts": {},
+  "preferGlobal": false,
+  "bin": {},
+  "engines": {
+    "node": ">= 0.10.0",
+    "iojs": ">= 1.0.0"
+  },
+  "main": "index.js",
+  "keywords": [
+    "cloudcome",
+    "ydr.me"
+  ],
+  "author": {
+    "name": "cloudcome",
+    "email": "cloudcome@163.com",
+    "url": "http://ydr.me"
+  },
+  "contributors": [],
+  "homepage": "https://github.com/cloudcome/coolie-html-embed-php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudcome/coolie-html-embed-php"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudcome/coolie-html-embed-php/issues"
+  },
+  "dependencies": {
+    "blear.utils.object": "^1.0.14",
+    "blear.utils.random": "^1.0.4"
+  },
+  "peerDependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
