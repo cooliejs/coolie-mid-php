@@ -1,7 +1,7 @@
 {
   "name": "coolie-mid-php",
-  "version": "1.0.0",
-  "description": "coolie-mid-php description",
+  "version": "1.0.1",
+  "description": "支持构建 html 内嵌 PHP 的代码",
   "scripts": {},
   "preferGlobal": false,
   "bin": {},
@@ -12,21 +12,23 @@
   "main": "index.js",
   "keywords": [
     "cloudcome",
-    "ydr.me"
+    "ydr.me",
+    "coolie",
+    "middleware"
   ],
   "author": {
     "name": "cloudcome",
     "email": "cloudcome@163.com",
-    "url": "http://ydr.me"
+    "url": "https://ydr.me"
   },
   "contributors": [],
-  "homepage": "https://github.com/cloudcome/coolie-html-embed-php",
+  "homepage": "https://coolie.ydr.me/middleware/coolie-mid-php",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloudcome/coolie-html-embed-php"
+    "url": "https://github.com/cloudcome/coolie-mid-php"
   },
   "bugs": {
-    "url": "https://github.com/cloudcome/coolie-html-embed-php/issues"
+    "url": "https://github.com/cloudcome/coolie-mid-php/issues"
   },
   "dependencies": {
     "blear.utils.object": "^1.0.14",
