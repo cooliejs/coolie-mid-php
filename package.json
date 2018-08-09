@@ -1,6 +1,6 @@
 {
   "name": "coolie-mid-php",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "支持构建 html 内嵌 PHP 的代码",
   "scripts": {},
   "preferGlobal": false,

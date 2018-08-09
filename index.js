@@ -24,14 +24,14 @@ var defaults = {
  * @returns {string}
  */
 var genKey = function () {
-    return '≤' + random.string(10) + random.guid() + '≥';
+    return '≤PHP' + random.string(10) + random.guid() + '≥';
 };
 
 module.exports = function (configs) {
     configs = object.assign({}, defaults, configs);
 
     var sourceMap = Object.create(null);
-    var mid = function (options) {
+    return function (options) {
         switch (options.progress){
             case 'pre-html':
                 object.each(configs.regexps, function (index, regexp) {
@@ -52,10 +52,7 @@ module.exports = function (configs) {
 
         return options;
     };
-
-    mid.package = pkg;
-    return mid;
 };
-
+module.exports.package = pkg;
 module.exports.defaults = defaults;
 
